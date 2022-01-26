@@ -1,0 +1,20 @@
+.item {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+.date {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  height: 22.6rem;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}

@@ -1,0 +1,49 @@
+.container {
+  padding: 1.9rem;
+}
+
+.header {
+  margin: 1.8rem 0 3.8rem;
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: 400;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.date {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  height: 26rem;
+  width: 37rem;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+}
+
+.logoouter {
+  width: 37rem;
+  margin-right: 1.7rem;
+}
+
+.description {
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 1.5;
+}

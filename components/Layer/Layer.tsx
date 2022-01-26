@@ -1,4 +1,4 @@
-import React from 'react'
+import styles from './Layer.module.css'
 
 interface ILayerProps {
   children: JSX.Element
@@ -7,7 +7,9 @@ interface ILayerProps {
 const Layer = ({ children }: ILayerProps) => {
   return (
     <>
-      <header>Exhibitions!</header>
+      <header>
+        <h1 className={styles.heading}>Exhibitions!</h1>
+      </header>
       <main>{children}</main>
     </>
   )
